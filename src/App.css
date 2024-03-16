@@ -1,0 +1,37 @@
+
+.vehiculo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.vehiculo h2 {
+  margin-top: 0;
+}
+
+.vehiculo > div {
+  flex-grow: 1; 
+}
+
+.vehiculo h2 {
+  margin-top: 0; 
+}
+
+.vehiculo p {
+  margin-bottom: 10px;
+}
+
+
+.vehiculo {
+  display: flex;
+  align-items: center;
+  max-width: 600px; 
+  margin-bottom: 20px;
+}
+
+.vehiculo img {
+  max-width: 200px; 
+  margin-right: 20px; 
+}
+
